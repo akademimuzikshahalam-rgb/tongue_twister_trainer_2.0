@@ -268,7 +268,7 @@ function initRecognition() {
   // Disable both on Android so recognition completes and commits a final result.
   recognition.continuous = isAndroid ? false : true;
   recognition.interimResults = isAndroid ? false : true;
-  recognition.lang = 'en-US';
+  recognition.lang = 'en-MY';
   recognition.maxAlternatives = 1;
 
   recognition.onstart = () => {
